@@ -41,7 +41,34 @@ Once the profile was trusted, the MDM successfully triggered the silent installa
 
 ---
 
+## 💻 Phase 4: macOS Fleet Management (Security & Encryption)
+To demonstrate cross-platform capability, I configured a management profile for **macOS Laptops**. This aligns with enterprise requirements for full-disk encryption and malware prevention.
+
+* **Blueprint Logic:** Created a dedicated macOS policy to manage laptop-specific hardware security.
+* **FileVault Enforcement:** Enabled mandatory **FileVault** full-disk encryption to secure data at rest.
+* **Compliance Standards:** Staged Malware Prevention and Web Protection toggles to meet high-security infrastructure baselines.
+
+![macOS Security Policy](macos_security_policy.png)
+*Configuring FileVault and security payloads for the macOS fleet.*
+
+---
+
 ## 🧠 Key Skills Demonstrated
 * **Certificate Management:** Managing `.pem` and `.plist` exchanges between Jamf and Apple.
 * **UEM Logistics:** Understanding the flow of "Open Enrollment" and remote command triggers.
 * **Security & Compliance:** Verifying signed certificates from "JAMF Software (483DWKW443)" to ensure device integrity.
+
+---
+
+## 🏛️ Enterprise Service Management (ITIL & Multi-Platform)
+
+### 🔄 Unified Endpoint Management (UEM) Strategy
+This lab completes a "Dual-Platform" management portfolio. By mastering **Jamf** alongside **ManageEngine Endpoint Central**, I have demonstrated the ability to maintain a heterogeneous fleet:
+* **Windows Management:** Utilized ManageEngine for baseline vulnerability scanning and CLI-based agent remediation.
+* **Apple Management:** Utilized Jamf for APNs lifecycle management and Blueprint-based security (FileVault).
+
+### 📚 ITIL Framework Alignment
+* **Service Configuration Management:** Tracked devices as **Configuration Items (CIs)** within the Jamf Asset Inventory.
+* **Release Management:** Deployed software as **Standard Changes** via automated workflows.
+* **Information Security Management:** Established a Root of Trust via encrypted APNs handshakes.
+
