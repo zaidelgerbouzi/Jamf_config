@@ -28,17 +28,12 @@ I utilized **User-Initiated Enrollment** to bring a personal iPhone 14 under man
 
 ## 📦 Phase 3: Automated Software Deployment
 I configured a **Blueprint** to automate the delivery of critical business applications.
-* **Applications:** **Microsoft Teams** and **Zoom Workplace**.
-* **Policy:** Set to "Install Automatically" to ensure immediate deployment upon enrollment.
 
-![Blueprint Setup](blueprint_setup.png)
+| Blueprint Configuration (Cause) | End-User Experience (Effect) |
+| :---: | :---: |
+| ![Blueprint Setup](blueprint_setup.png) | ![Teams Push](teams_install_prompt.png) |
 
-### 🚀 The End-User Experience
-Once the profile was trusted, the MDM successfully triggered the silent installation of the managed apps.
-
-![Teams Push](teams_install_prompt.png) ![Zoom Push](zoom_install_prompt.png)
-*Real-time deployment of Teams and Zoom on the managed iPhone 14.*
-
+*The Blueprint on the left ensures that as soon as a device enrolls, the "App Installation" prompt for Microsoft Teams on the right is triggered automatically.*
 ---
 
 ## 💻 Phase 4: macOS Fleet Management (Security & Encryption)
